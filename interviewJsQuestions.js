@@ -139,3 +139,8 @@ But b is not declared anywhere in the function with var so it is set equal to 5 
 
 */
 
+
+/*
+https://thatjsdude.com/interview/js1.html (Beginer)
+https://thatjsdude.com/interview/js2.html (Intermediate)
+*/
