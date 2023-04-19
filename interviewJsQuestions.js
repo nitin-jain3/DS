@@ -144,3 +144,31 @@ But b is not declared anywhere in the function with var so it is set equal to 5 
 https://thatjsdude.com/interview/js1.html (Beginer)
 https://thatjsdude.com/interview/js2.html (Intermediate)
 */
+
+/*
+
+Promise is an object that represents eventula completion of an asyn operation.
+Streams :- readable, writable, duplex, transform
+
+ACID :- 
+Atomicity - Transaction will happen at once or it will fail. Noti=hing in betweem
+Consitency - DB must be consistent before and after the Transaction
+Isolation - Multiple transactions happen independently without interference
+Durability - The changes of a successfull transaction occurs even if the system failure occurs.ACID
+
+Normalisaton :- Normalization is the process of organizing the data in the database. minimise redundancy.
+
+Types:-
+1NF - is 1NF if it contains a unique primary key.
+2NF - is 1NF and all of the attributes are dependent on primary key.
+3NF - No transitive dependency exists.
+
+Transactions :- Group of tasks.
+
+Node.js is a back-end JavaScript runtime environment, runs on the V8 JavaScript Engine, 
+and executes JavaScript code outside a web browser.
+
+Why is Node.js single-threaded?
+Node.js works on the single-threaded model to ensure that there is support for asynchronous processing. With this, it makes it scalable and efficient for applications to provide high performance and efficiency under high amounts of load.
+
+*/
