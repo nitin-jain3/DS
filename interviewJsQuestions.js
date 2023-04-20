@@ -195,4 +195,12 @@ Function bundled along with it's lexical scope is closure.
 JavaScript has a lexcial scope environment. If a function needs to access a variable, it first goes to its local memory. When it does not find it there, it goes to the memory of its lexical parent. 
 
 
+get and hget in redis :-
+get is simple, it gets all the keys
+hget is just like get, but it also gets the hash at which that key is stored
+
+hooks in mongoDb :-
+pre hook, if i want to update anything before a transaction takes place then pre hook
+post hook, if i want to update anything after a transaction takes place then post hook.
+
 */
