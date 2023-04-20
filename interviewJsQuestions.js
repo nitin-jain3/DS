@@ -203,4 +203,8 @@ hooks in mongoDb :-
 pre hook, if i want to update anything before a transaction takes place then pre hook
 post hook, if i want to update anything after a transaction takes place then post hook.
 
+
+Elasticsearch is built for search and provides advanced data indexing capabilities. For data analysis, it operates alongside Kibana, and Logstash to form the ELK stack.
+
+MongoDB lets you manage, store and retrieve document-oriented information. It provides features such as fast ad-hoc queries, indexing, load balancing, data aggregation, and server-side JavaScript execution.
 */
