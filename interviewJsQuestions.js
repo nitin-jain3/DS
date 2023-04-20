@@ -147,14 +147,14 @@ https://thatjsdude.com/interview/js2.html (Intermediate)
 
 /*
 
-Promise is an object that represents eventula completion of an asyn operation.
+Promise is an object that represents eventual completion of an asyn operation.
 Streams :- readable, writable, duplex, transform
 
 ACID :- 
-Atomicity - Transaction will happen at once or it will fail. Noti=hing in betweem
+Atomicity - Transaction will happen at once or it will fail. Notihing in betweem
 Consitency - DB must be consistent before and after the Transaction
 Isolation - Multiple transactions happen independently without interference
-Durability - The changes of a successfull transaction occurs even if the system failure occurs.ACID
+Durability - The changes of a successfull transaction occurs even if the system failure occurs.
 
 Normalisaton :- Normalization is the process of organizing the data in the database. minimise redundancy.
 
@@ -170,5 +170,29 @@ and executes JavaScript code outside a web browser.
 
 Why is Node.js single-threaded?
 Node.js works on the single-threaded model to ensure that there is support for asynchronous processing. With this, it makes it scalable and efficient for applications to provide high performance and efficiency under high amounts of load.
+
+Hoisting is a concept which enables us to extract values of variables and functions even before initialising/assigning value without getting error and this is happening due to the 1st phase (memory creation phase) of the Execution Context.
+
+So in previous lecture, we learnt that execution context gets created in two phase, so even before code execution, memory is created so in case of variable, it will be initialized as undefined while in case of function the whole function code is placed in the memory. 
+
+Temporal Dead Zone : Time since when the let variable was hoisted until it is initialized some value. So any line till before "let a = 10" is the TDZ for a Since a is not accessible on global, its not accessible in window/this also.
+indow.b or this.b -> 15; But window.a or this.a ->undefined, just like window.x->undefined (x isn't declared
+anywhere)
+Reference Error are thrown when variables are in temporal dead zone.
+Syntax Error doesn't even let us run single line of code.
+
+
+Shadowing :-
+If one has same named variable outside the block, the variable inside the block shadows the outside variable. This happens only for var.
+
+Ilegal Shadowing :-
+We cannot shadow let with var. But it is valid to shadow a let using a let. However, we can shadow var with let.
+
+
+Closures in JS :- 
+
+Function bundled along with it's lexical scope is closure.
+JavaScript has a lexcial scope environment. If a function needs to access a variable, it first goes to its local memory. When it does not find it there, it goes to the memory of its lexical parent. 
+
 
 */
