@@ -302,7 +302,9 @@ Use the explain() method: The explain() method provides information about how Mo
 The output of the explain() method includes several fields, including:
 
 "queryPlanner": Provides details about how MongoDB planned the query, including which indexes were considered and how many documents were estimated to be returned.
+
 "winningPlan": Provides details about the plan that MongoDB ultimately chose to execute the query, including which indexes were used and how many documents were actually scanned.
+
 "executionStats": Provides detailed performance metrics about how long the query took to execute, how many documents were scanned, and how many indexes were used.
 
 Indexing in MongoDB is a way to speed up the process of finding data in a collection. Think of an index as a way to organize your data like a phone book: the phone book is sorted alphabetically by last name, so it's easy to find someone's phone number without having to search through the entire book.
@@ -321,4 +323,9 @@ MongoDB uses a type of index called a B-tree, which is a data structure that all
 
 Creating indexes in MongoDB can significantly improve query performance, but it can also consume additional disk space and memory. It's important to carefully consider which fields to index and how to structure your indexes to optimize query performance while minimizing resource usage.
 
+Some o/p :-
+true + true = 2
+null + undefined = Nan
+true + false = 1
+1 + '8' = '18'
 */

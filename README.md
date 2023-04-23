@@ -6,3 +6,4 @@ Data Structures that are included are :-
 2. Trees Implementation through classes.
 3. Arrays
 4. Strings
+5. Stack through arrays
