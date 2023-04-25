@@ -328,4 +328,202 @@ true + true = 2
 null + undefined = Nan
 true + false = 1
 1 + '8' = '18'
+
+
+SOLID principles :-
+Single Responsibility Principle (SRP) - A class should have only one reason to change, which means that each class should have a single responsibility or job. This helps to keep the code organized and easier to modify.
+
+Open-Closed Principle (OCP) - Software entities should be open for extension but closed for modification. This means that you should be able to add new functionality without changing the existing code.
+
+Liskov Substitution Principle (LSP) - Subtypes should be substitutable for their base types. This means that objects of a superclass should be able to be replaced with objects of a subclass without affecting the correctness of the program.
+
+Interface Segregation Principle (ISP) - Clients should not be forced to depend on interfaces they do not use. This means that classes should only be dependent on the interfaces that they need, and not on interfaces that they don't use.
+
+Dependency Inversion Principle (DIP) - High-level modules should not depend on low-level modules. Both should depend on abstractions. This means that you should not depend on implementation details of other classes, but instead rely on abstractions or interfaces.
+
+
+OOPS :-
+
+Object-Oriented Programming, also known as OOP, is a programming paradigm that uses objects to represent and manipulate data.
+
+In OOP, objects are created from classes, which are like blueprints for creating objects. Each object has properties, also known as attributes, and behaviors, also known as methods, which can be accessed and manipulated through the object.
+
+Here are some basic concepts of OOP in easy language:
+
+Encapsulation - Encapsulation is the practice of hiding the implementation details of an object from the outside world. This is done by setting access modifiers on attributes and methods, which control who can access and modify them.
+
+Inheritance - Inheritance allows classes to inherit properties and behaviors from other classes. This allows for code reuse and helps to reduce duplication.
+
+Polymorphism - Polymorphism allows objects of different types to be treated as if they are of the same type. This is achieved through method overriding and method overloading, which allow for different behavior depending on the object's type.
+
+Abstraction - Abstraction is the process of identifying the essential features of an object, while ignoring the non-essential details. This allows for easier understanding and manipulation of complex systems.
+
+OOP provides a powerful way to organize and manipulate data in a structured and organized manner. By using objects and classes, developers can create software that is more maintainable, extensible, and scalable
+
+When sql and when nosql :-
+The choice between SQL and NoSQL databases depends on the specific requirements of the application and the data being stored. Here are some general guidelines:
+
+Use SQL databases when:
+You need to handle complex transactions, such as financial transactions or reservations.
+You have a well-defined schema that will not change frequently.
+Your application needs to perform advanced queries, such as joins, aggregations, and grouping.
+You have large amounts of structured data that needs to be normalized to reduce redundancy.
+You need to ensure data consistency and reliability.
+
+Use NoSQL databases when:
+You need to handle large volumes of unstructured or semi-structured data, such as social media data, sensor data, or logs.
+You have a dynamic schema that can evolve over time.
+Your application requires high scalability, availability, and performance.
+You need to store data in a distributed environment, such as a cloud or a cluster.
+You need to store and retrieve data quickly and efficiently, without the overhead of complex transactions and joins.
+
+MVC Architecture :-
+
+MVC architecture stands for Model-View-Controller architecture. It is a design pattern that separates an application into three main components: the model, the view, and the controller.
+
+Here's a simple explanation of each component:
+
+Model - The model represents the data and the logic behind the data. It encapsulates the business logic and provides an interface for accessing and modifying the data. The model is responsible for storing and retrieving data from the database.
+
+View - The view represents the user interface that the user sees and interacts with. It displays the data from the model and allows the user to interact with the application. The view is responsible for rendering the data and sending user input to the controller.
+
+Controller - The controller acts as a mediator between the model and the view. It receives user input from the view and updates the model accordingly. It also retrieves data from the model and sends it to the view for display. The controller is responsible for handling user input, updating the model, and updating the view.
+
+The main advantage of the MVC architecture is that it separates the concerns of the application into distinct components. This makes the application more modular, easier to maintain, and easier to test. Additionally, it allows developers to work on different parts of the application without interfering with each other's work.
+
+Overall, the MVC architecture provides a flexible and scalable approach to building applications.
+
+MVVM Architecture :-
+
+MVVM stands for Model-View-ViewModel, and it is a design pattern that is similar to the MVC architecture, but with some key differences.
+
+In the MVVM pattern, the view is responsible for displaying the data and user interface, the model is responsible for storing and manipulating the data, and the view model acts as an intermediary between the view and the model.
+
+Here's a breakdown of the components:
+
+Model - The model is responsible for managing the data and business logic. It is similar to the model in the MVC architecture.
+
+View - The view is responsible for displaying the user interface to the user. It is similar to the view in the MVC architecture.
+
+View Model - The view model acts as an intermediary between the view and the model. It exposes the data and operations of the model to the view, and provides the view with the necessary data and behavior to display and interact with the data. The view model also contains the state and behavior of the view, such as user input and display settings.
+
+In software development, a ViewModel is a design pattern that separates the data and behavior of a view from the underlying data model. It is commonly used in conjunction with the Model-View-Controller (MVC) or Model-View-ViewModel (MVVM) architectures.
+
+The ViewModel is responsible for managing the data and behavior that is specific to the view. It provides an abstraction layer between the view and the underlying data model, which enables the view to display and manipulate data without having to directly interact with the data model.
+
+The key difference between the ViewModel and the Model is that the ViewModel is designed to provide a representation of the data that is specifically tailored to the needs of the view. It encapsulates the data and behavior that is relevant to the view, and provides a simplified interface for the view to interact with.
+
+For example, in a web application that displays a list of products, the ViewModel might contain a collection of Product objects that have been filtered, sorted, and formatted to meet the requirements of the view. The ViewModel might also contain methods for retrieving and updating the product data, as well as handling user input and validation.
+
+Agile is an approach to software development that emphasizes flexibility, collaboration, and responsiveness to change. It is based on the Agile Manifesto, which was created by a group of software developers in 2001.
+
+The main principles of Agile include:
+
+Individuals and interactions over processes and tools
+Working software over comprehensive documentation
+Customer collaboration over contract negotiation
+Responding to change over following a plan
+The Agile approach is iterative and incremental, meaning that it involves breaking down a project into smaller, more manageable pieces and delivering working software at regular intervals. This allows for frequent feedback and enables the team to respond to changing requirements.
+
+Agile is also characterized by its emphasis on collaboration and communication. Agile teams are typically self-organizing and cross-functional, meaning that they have all the skills and expertise necessary to deliver a software product. The team is responsible for planning, designing, developing, testing, and delivering the software.
+
+Overall, Agile provides a flexible and adaptive approach to software development that prioritizes customer satisfaction, working software, and responsiveness to change. It can help teams to deliver software products faster, with higher quality, and with greater customer satisfaction.
+
+Scrum is a popular agile framework that is used in software development and project management. It is designed to help teams deliver high-quality software products in an iterative and incremental manner.
+
+The main principles of Scrum include:
+
+Iterative and Incremental Delivery: Scrum teams work in short iterations, typically 2-4 weeks, and deliver working software at the end of each iteration. This allows for frequent feedback and enables the team to respond to changing requirements.
+
+Self-Organizing Teams: Scrum teams are self-organizing and cross-functional, meaning that they have all the skills and expertise necessary to deliver a software product. The team is responsible for planning, designing, developing, testing, and delivering the software.
+
+Agile Planning: Scrum teams use a collaborative planning process to define the goals and scope of each iteration. This involves creating a prioritized backlog of user stories or requirements, estimating the effort required to complete each item, and selecting the items to work on in the current iteration.
+
+Daily Stand-up Meetings: Scrum teams hold daily stand-up meetings, also known as daily scrums, to synchronize their work and identify any issues or obstacles that need to be addressed.
+
+Continuous Improvement: Scrum teams continuously improve their processes and practices through retrospectives, which are meetings held at the end of each iteration to review what went well, what didn't go well, and what can be improved.
+
+Overall, Scrum provides a flexible and adaptive approach to software development that emphasizes collaboration, feedback, and continuous improvement. It can help teams to deliver software products faster, with higher quality, and with greater customer satisfaction.
+
+JOINS in SQL :-
+
+Inner Join: This is the most common type of join used in SQL. It returns only the rows that have matching values in both tables being joined. Inner join is used when we need only the common records from both the tables.
+
+Left Join: Left join returns all the records from the left table and matching records from the right table. If there are no matching records in the right table, NULL values are returned.
+
+Right Join: Right join returns all the records from the right table and matching records from the left table. If there are no matching records in the left table, NULL values are returned.
+
+Full Outer Join: Full outer join returns all the records from both the tables being joined. If there are no matching records in one of the tables, NULL values are returned.
+
+Cross Join: Cross join returns the Cartesian product of both the tables being joined. This means that it returns all possible combinations of rows from both tables.
+
+KEYS in SQL :-
+
+Primary key: A primary key is a column or a group of columns that uniquely identifies each record in a table. Primary keys are used to enforce data integrity and to establish relationships between tables.
+
+Foreign key: A foreign key is a column or a group of columns that refers to the primary key of another table. Foreign keys are used to establish relationships between tables and to ensure referential integrity.
+
+Unique key: A unique key is a column or a group of columns that has a unique value for each record in a table. Unlike a primary key, a unique key can contain NULL values.
+
+Composite key: A composite key is a combination of two or more columns that uniquely identifies each record in a table.
+
+Candidate key: A candidate key is a column or a group of columns that could potentially serve as a primary key. In other words, it's a unique identifier for each record in a table, but it hasn't been chosen as the primary key yet.
+
+Alternate key: An alternate key is a column or a group of columns that could also serve as a primary key, but the primary key has already been chosen.
+
+It's important to note that primary keys and unique keys are used to enforce data integrity, while foreign keys are used to establish relationships between tables. Composite keys, candidate keys, and alternate keys are used for identification purposes.
+
+binary search tree and a binary heap :-
+
+binary search tree is a tree data structure where each node has at most two children, and the left child is less than the parent, while the right child is greater. A binary heap, on the other hand, is a tree data structure where each node has at most two children, and the parent is always less than or equal to the children (in a min-heap) or greater than or equal to the children (in a max-heap).
+
+SDLC :-
+
+SDLC is a methodology used by software development teams to plan, design, build, test, and deploy software. The SDLC typically consists of several phases, including requirements gathering, design, implementation, testing, and maintenance.
+
+Hash Table :-
+hash table is a data structure that maps keys to values using a hash function. The hash function takes the key as input and generates a unique index into an array of buckets, where the value is stored. The hash function should be designed such that it minimizes collisions, where multiple keys hash to the same bucket.
+
+Array and linked list :-
+array is a collection of elements stored in contiguous memory locations, where each element can be accessed by its index. A linked list, on the other hand, is a collection of elements where each element points to the next element in the list. Linked lists have dynamic memory allocation, while arrays have fixed memory allocation.
+
+REST API's :-
+RESTful API is a type of web service that follows the principles of Representational State Transfer (REST). RESTful APIs use HTTP methods (GET, POST, PUT, DELETE) to perform CRUD (Create, Read, Update, Delete) operations on resources. Resources are identified by unique URIs, and the data is typically represented in JSON or XML format.
+
+Code refactoring :-
+code refactoring is the process of improving the design and quality of existing code without changing its external behavior. Code refactoring can help to reduce technical debt, improve code maintainability, and reduce bugs and defects.
+
+Compiler and interpreter :-
+A compiler is a program that translates source code into machine code, which can be executed by a computer. An interpreter, on the other hand, translates and executes the source code line by line, without generating an executable file. Interpreted languages are typically slower than compiled languages, but they allow for greater flexibility and ease of use.
+
+Design Pattern :-
+Design pattern is a reusable solution to a commonly occurring problem in software design. Design patterns can help to improve the quality, flexibility, and maintainability of code. An example of a design pattern is the Singleton pattern, which ensures that only one instance of a class is created and provides a global point of access to that instance.
+
+Normalization :-
+Normalization is a process used in database design to organize data in a way that reduces redundancy and dependency, and ensures data integrity. There are several levels of normalization, each building on the previous level to further reduce redundancy and improve data organization. The different types of normalization are:
+
+First Normal Form (1NF): In 1NF, data is organized into tables with a primary key, and each column contains atomic (indivisible) values. This eliminates repeating groups and allows for efficient querying.
+
+Second Normal Form (2NF): In 2NF, all non-key columns are dependent on the primary key, and not on each other. This eliminates partial dependencies and ensures that each table contains only related data.
+
+Third Normal Form (3NF): In 3NF, all non-key columns are dependent only on the primary key, and not on other non-key columns. This eliminates transitive dependencies and ensures that data is stored in the most efficient and organized way possible.
+
+Boyce-Codd Normal Form (BCNF): BCNF is a stricter version of 3NF, in which each determinant (a column or group of columns that determines the value of another column) is a candidate key. This ensures that every dependency is a result of the key, and not of other columns.
+
+Fourth Normal Form (4NF): 4NF is used in special cases where multiple independent multi-valued dependencies exist in a table. It ensures that each table contains only relevant and non-redundant data.
+
+Clustered and non-clustered index in SQL :-
+A clustered index determines the physical order of data in a table, whereas a non-clustered index creates a separate structure that points to the data in a table. In other words, a clustered index physically reorders the data in a table, whereas a non-clustered index does not.
+
+Stored Procedures in SQL :-
+A stored procedure is a pre-written program that is saved in a database and can be executed multiple times. It is often used to perform common tasks, such as inserting or updating data in a table, and can be called by other programs or scripts. Stored procedures can improve performance, reduce errors, and simplify coding.
+
+Transaction :- 
+A transaction is a series of SQL statements that are executed as a single unit of work. Transactions are used to ensure data integrity and consistency in a database, by ensuring that either all of the statements in a transaction are completed successfully, or none of them are completed at all. Transactions can be used to perform tasks such as updating multiple tables, maintaining database constraints, and ensuring that all data is accurate and consistent.
+
+SQL Triggers :-
+A trigger is a special type of stored procedure that is automatically executed in response to certain events, such as inserting, updating, or deleting data from a table. Triggers can be used to enforce business rules, maintain data integrity, and provide automated data processing. They are often used in conjunction with stored procedures to automate database operations and ensure consistency.
+
+Database Index :-
+A database index is a data structure that is used to improve the performance of database queries. It works by creating a separate data structure that stores a subset of the data in a table, and provides faster access to the data that is needed for a query. Indexes can be created on one or more columns in a table, and can significantly improve the performance of queries that involve those columns. However, indexes can also have a negative impact on database performance if they are not used correctly.
 */
