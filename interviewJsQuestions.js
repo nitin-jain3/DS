@@ -526,4 +526,16 @@ A trigger is a special type of stored procedure that is automatically executed i
 
 Database Index :-
 A database index is a data structure that is used to improve the performance of database queries. It works by creating a separate data structure that stores a subset of the data in a table, and provides faster access to the data that is needed for a query. Indexes can be created on one or more columns in a table, and can significantly improve the performance of queries that involve those columns. However, indexes can also have a negative impact on database performance if they are not used correctly.
+
+Database schema in SQL :-
+A database schema is a blueprint or structure that defines the organization of a database, including tables, columns, constraints, and relationships. The schema provides a way to organize and manage data in a database, and can be used to ensure data consistency and integrity. The schema can be modified as needed to accommodate changes in data requirements or business rules.
+
+Query in SQL :-
+A query is a request for data or information from a database, used to retrieve, insert, update, or delete data. Queries are written in SQL, and can be used to perform complex operations on data, filter data, and perform calculations. They can also be used to create reports and summaries of data in a database.
+
+Denormalization :-
+Denormalization is the process of intentionally adding redundancy to a database table in order to improve query performance. This is done by duplicating data from related tables in order to avoid expensive joins or aggregations. While denormalization can improve query performance, it can also increase the risk of data inconsistencies or anomalies.
+
+
+
 */
