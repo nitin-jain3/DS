@@ -1,0 +1,34 @@
+VIM :- Commands
+
+gg To go to the beginning of the page
+G To go to end of the page
+w To move the cursor forward, word by word
+b To move the cursor backward, word by word
+nw To move the cursor forward to n words (SW)
+nb To move the cursor backward to n words {SB)
+u To undo last change (word)
+u To undo the previous changes (entire line)
+Ctrl+R To redo the changes
+VY To copy a line
+nyy To copy n lines (Syy or 4yy)
+p To paste line below the cursor position
+p To paste line above the cursor position
+dw To delete the word letter by letter {likeBackspace}
+X To delete the world letter by letter (like DEL Key) I·,
+dd To delete entire line \' --
+ndd To delete n no. of lines from cursor position{Sdd) ,:::::,-
+<::..
+I To search a word in the file
+
+
+Esc+:w To Save the changes j"-', \"" ../
+Esc+:q To quit (Without saving)
+...--,.. .....
+Esc+:wq To save and quit r '\
+Esc+:w! To save forcefully /_-·.. \.>-:/
+Esc+wq! To save and quit forcefully f_l '\7
+Esc+:x To save and quit
+Esc+:X To give passw or d to the file and remove password
+Esc+:20(n) To go to line no 20 or n
+Esc+: se nu To set the line numbers to the file !
+Esc+:se nonu To Remove the set line number
